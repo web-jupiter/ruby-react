@@ -1,0 +1,84 @@
+// Place all the styles related to the Quips controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.field_with_errors {
+	color: red;
+}
+
+html {
+	background-color: lightgrey;
+}
+
+body {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+	/*background-color: lightgrey;*/
+	height: 100vh;
+}
+
+li {
+	list-style: none;
+}
+
+#card_head {
+	div {
+		width: 50%;
+	}
+
+	h2 {
+		/*margin-top: 0px;*/
+		margin: 0px;
+		width: 50%;
+	}
+}
+
+#container {
+	display: flex;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#bottom_card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#bottom_card_left {
+	display: flex;
+	justify-content: space-between;
+	width: 25%;
+}
+
+#bottom_card_right {
+	display: flex;
+	width: 25%;
+	justify-content: space-between;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+.card {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+    padding: 8px 16px;
+    background-color: white;
+}

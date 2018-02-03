@@ -1,0 +1,35 @@
+.privacy-header {
+    background: white;
+    padding: 40px;
+}
+
+.privacy-header h2 {
+    font-weight: bold !important;
+}
+
+.privacy-body {
+    padding: 20px 20px 50px 20px;
+}
+
+.privacy-list {
+    background: white;
+    padding: 30px 40px;
+    min-height: 1200px;
+}
+
+.privacy-item {
+    margin-bottom: 20px;
+}
+
+.privacy-item ol {
+    padding-left: 18px;
+    margin-top: 10px;
+}
+
+.privacy-subtitle {
+    font-size: 16px;
+}
+
+.privacy-item label {
+    margin-bottom: 15px;
+}

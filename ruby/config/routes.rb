@@ -1,0 +1,31 @@
+Rails.application.routes.draw do
+	
+  get 'rate/index'
+  get 'welcome/index'
+  get 'welcome/test'
+  get 'company/index'
+  get 'company/category'
+  get 'company/search'
+  get 'company/suggest'
+  get 'company/show'
+  get 'company/hot'
+  post 'company/create'
+  post 'company/update'
+  post 'company/updateCategories'
+  post 'company/upload'
+  get 'company/delete'
+  get 'category/index'
+  post 'category/create'
+  get 'category/delete'
+  post 'category/update'
+  post 'review/submit'
+  get 'review/delete'
+  get 'review/show'
+  get 'review/approveDismiss'
+  post 'review/upload'
+  post 'authenticate', to: 'authentication#authenticate'
+  post 'register', to: 'authentication#register'
+  post 'welcome/contact'
+
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end

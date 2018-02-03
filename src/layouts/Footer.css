@@ -1,0 +1,44 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: white;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.browse-category {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.link-container {
+    float: right;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.link-container a {
+    color: rgb(71, 71, 71);
+    padding: 10px;
+}
+
+.link-container a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.link-container button {
+    color: rgb(71, 71, 71);
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.link-container button:hover {
+    text-decoration: none;
+    color: black;
+}

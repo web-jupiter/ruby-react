@@ -1,0 +1,73 @@
+#Description
+
+Skype: quinsi1028
+Hi! We’re looking for someone to develop a company review web app in Javascript (bootstrap) and Ruby.
+
+- Mockup (developed in Sketch): https://www.dropbox.com/sh/i1pddt1c5zyduuu/AABQJRdMXXM9guhqIt8Nt2IIa?dl=0
+- Specification: https://www.dropbox.com/s/tsheb6bryn3dst2/Specification_v1.docx?dl=0
+
+Additional requirement:
+- (Almost) Pixel perfect (including font size, colour and spacing)
+- Fully responsive
+- The final web app will be in Chinese, so the last part of the project will be to change all the texts from English to Chinese. Mockup is created using English so that it is easier for dev to understand.
+
+Please only apply if:
+- You're experienced in building clean and customised codes and themes
+- You're very fluent in written English
+
+#Question
+
+Hi Antoliy, thanks for applying, I'm ready to start with you, just a few question:
+
+1_Which frontend framework will you choose?
+2_Mockup is now created in English but the final website will be in Chinese. Now if I provide you with the Chinese translation for the whole website, wouldn’t it also be ok if we just simply create a duplicate version of the website in Chinese so that we have 2 language versions. Would you be able to include this in your proposal IF we finally decided to go to that route?
+3_I will be hosting the website in Digital Ocean, are you familiar with them?
+
+Quincy
+
+#Answer
+
+1. Angular (There are Angular, React.js, Vue.js. You can choose anything, I recommend Angular)
+2. The front end and Ruby should have multi-language functionality so that ther is no need to have 2 versions duplicated. We just should have the Chinese language data.
+3. I'm familiar with the Digital Ocean and can help you to host the site.
+
+#Milestones
+
+Great, would you be good with the following milestone arragement:
+Project:
+M1: $100 on commencement
+M2: $200 on release of first version
+M3: $100 after all bugs are fixed
+M4: $100 after website goes live and final testing
+
+#Ftp Server
+Droplet Name: Graddit
+IP Address: sftp://138.197.203.247
+Username: root
+Password: R&7!~`J\(TdhA;C^
+
+#Digital Ocean
+qkclung@gmail.com / Qlung123
+Project name: Graddit
+
+#Feedback(2018-09-18)
+Anyway these are the feedbacks for FUNCTIONALITIES, cross referencing with the specification doc:
+
+- 2_3: How does admin assign a company as ‘hot company’? I don’t see that in the backend
+- 2_6: in Company Listing page, each page will display 10 companies - this DOES NOT include the hot companies at the top (sorry for unclear spec)
+- 3_8: the ‘read our full review guideline here’ button should take user to the full terms and conditions page (https://www.dropbox.com/s/g862v2sk68l6cw3/6_Terms.png?dl=0)
+- 4_1: When submitting a review and user check the 'remain anonymous' box, the reviewer's name is still shown (it should be shown as anonymous)
+- 4_2: Remove cost of service field
+- 4_3: Remove date of service field
+- 4_4: star should be coloured in real time as user hover along them
+- 4_5: Verification feature pending
+- 4_8: Once submitted review: a) pop up box message box should be shown; b) after clicking OK in pop up box, return user to SingleCompany page
+- 4_1 (backend): how should I test this?
+- 4_2 (backend): Review now showing immediately even BEFORE admin approves it
+- 4_3 (backend): verification feature pending
+- 0_3: Can we have company name included in the url? e.g. graddit.co/company/ABCcompany
+
+- Others_1: CompangListing page > click on a company > hit ‘Back’ in browser, it didn’t go back to the previous page
+
+**Digital Ocean Console**
+https://cloud.digitalocean.com/droplets/109815413/console?no_layout=true&i=7ebfce

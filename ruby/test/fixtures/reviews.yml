@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: 
+  user_name: MyString
+  title: MyString
+  service_details: MyString
+  service_cost: 1.5
+  start_date: 2018-09-12
+  end_date: 2018-09-12
+  review: MyString
+  user_email: 
+
+two:
+  company: 
+  user_name: MyString
+  title: MyString
+  service_details: MyString
+  service_cost: 1.5
+  start_date: 2018-09-12
+  end_date: 2018-09-12
+  review: MyString
+  user_email: 

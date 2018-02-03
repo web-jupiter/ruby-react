@@ -1,0 +1,1 @@
+bash run_react.sh | bash run_ruby.sh

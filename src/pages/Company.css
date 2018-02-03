@@ -1,0 +1,124 @@
+.company-container {
+    padding: 0 0 20px 0;
+}
+
+.company-summary {
+    background: white;
+    padding: 20px 40px;
+    border-top: 1px dotted lightgrey;
+}
+
+.company-summary-icon {
+    margin-top: -110px;
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+}
+
+.company-info label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.company-info {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.claim-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #51AF94;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.write-button {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.review-rules {
+    background: white;
+    padding: 30px 15px 0 15px;
+    height: 100%;
+}
+
+.review-rules h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.review-rules label {
+    font-size: 12px;
+}
+
+.rules {
+    margin-top: 20px;
+    margin-left: -20px;
+    font-size: 12px;
+}
+
+.rules li {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.review-rules p {
+    font-size: 13px;
+}
+
+.review-list {
+    background: white;
+    padding: 20px;
+}
+
+.reviews-label {
+    border-bottom: 2px solid #51af94;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.btn-submit {
+    background: #419e82;
+    border: #0c5460;
+}
+
+.btn-submit:hover {
+    background: #35866e !important;
+}
+
+.btn-submit:active {
+    background: #2d6b58 !important;
+}
+
+.modal-body .row {
+    margin-bottom: 10px;
+}
+
+.company-service-item {
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 6px 15px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: rgb(92, 92, 92);
+    font-weight: bold;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.company-description {
+    font-size: 14px;
+}
+
+.review-button {
+    font-size: 12px;
+    font-weight: bold;
+}

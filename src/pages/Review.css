@@ -1,0 +1,120 @@
+.review-container {
+    padding: 20px 40px;
+}
+
+.review-form1 {
+    padding: 30px;
+    padding-right: 45px;
+    border-right: 15px solid #f1f1f1;
+    background: white;
+}
+
+.review-form1 h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.review-form2 {
+    padding: 30px 10px 5px 10px;
+    background: white;
+    height: 100%;
+}
+
+.review-form2 p {
+    font-size: 13px;
+}
+
+.review-form2 h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.review-file {
+    border: none;
+}
+
+.review-checkbox input {
+    margin-left: -20px;
+    vertical-align: middle;
+}
+
+.review-checkbox {
+    margin-left: 20px;
+}
+
+.review-button {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.review-list {
+    margin: 0;
+}
+
+.review-list li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul {
+    margin-right: 15px;
+}
+
+.submit-button {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+span {
+    font-weight: normal;
+}
+
+.review-rate-name {
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.review-attachment-link {
+    font-size: 12px;
+}
+
+.keep-review-label {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.keep-review-label input {
+    vertical-align: inherit;
+}
+
+#serviceDetailsInput::placeholder {
+    color: #cccccc;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.terms-link {
+    float: right;
+    margin-top: 45px;
+    color: #51af94;
+    font-size: 14px;
+}
+
+.terms-link:hover {
+    color: #51af94;
+}
+
+.guideline-end-label {
+    font-size: 12px;
+    font-weight: normal;
+}

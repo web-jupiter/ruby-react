@@ -1,0 +1,1 @@
+cd ruby && rails s

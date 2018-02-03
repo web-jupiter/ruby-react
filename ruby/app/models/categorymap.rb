@@ -1,0 +1,2 @@
+class Categorymap < ApplicationRecord
+end

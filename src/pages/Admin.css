@@ -1,0 +1,138 @@
+.admin-header {
+    background: white;
+    padding: 40px 40px 20px 40px;
+}
+
+.admin-body {
+    padding: 20px 20px 50px 20px;
+    background: url('/assets/img/tiny_grid.png');
+}
+
+.admin-form {
+    background: white;
+    padding: 30px 40px;
+}
+
+.admin-description {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#categoryContainer {
+    overflow: auto;
+}
+
+.admin-category-item {
+    padding: 5px;
+    margin: 0;
+    border-top: 1px solid lightgrey;
+    min-width: 250px;
+}
+
+.admin-category-item:last-child {
+    border-bottom: 1px solid lightgrey;
+}
+
+.admin-category-item:hover {
+    background: rgb(236, 236, 236);
+}
+
+.admin-category-item.active {
+    background: rgb(236, 236, 236);
+}
+
+.admin-list-header {
+    margin-bottom: 20px;
+}
+
+.admin-button-add {
+    background: rgb(212, 212, 212);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 20px;
+    color: rgb(0, 0, 0);
+    width: 49%;
+    margin-right: 4px;
+}
+
+.admin-button-category {
+    background: rgb(212, 212, 212);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 20px;
+    color: rgb(0, 0, 0);
+    width: 49%;
+}
+
+.admin-button-edit {
+    background: rgb(36, 177, 78);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 20px;
+    color: white;
+    width: 49%;
+    margin-right: 4px;
+}
+
+.admin-button-delete {
+    background: rgb(255, 105, 105);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 20px;
+    color: white;
+    width: 49%;
+}
+
+#companyContainer {
+    margin-top: 20px;
+    max-height: 450px;
+    overflow: auto;    
+}
+
+.admin-company-item {
+    padding: 5px;
+    margin: 0;
+    border-top: 1px solid lightgrey;
+    min-width: 270px;
+}
+
+.admin-company-item:last-child {
+    border-bottom: 1px solid lightgrey;
+}
+
+.admin-company-item:hover {
+    background: rgb(236, 236, 236);
+}
+
+.admin-company-item.active {
+    background: rgb(236, 236, 236);
+}
+
+.company-button {
+    padding: 6px 20px;
+    width: 100%;
+}
+
+h4 {
+    margin-bottom: 30px !important;
+}
+
+.select-category-item label {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.select-category-item label input {
+    vertical-align: middle;
+}
+
+.disable {
+    background: rgb(230, 230, 230);
+    color: black;
+    pointer-events: none;
+    cursor: not-allowed !important;
+}

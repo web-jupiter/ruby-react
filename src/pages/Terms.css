@@ -1,0 +1,35 @@
+.terms-header {
+    background: white;
+    padding: 40px;
+}
+
+.terms-header h2 {
+    font-weight: bold !important;
+}
+
+.terms-body {
+    padding: 20px 20px 50px 20px;
+}
+
+.terms-list {
+    background: white;
+    padding: 30px 40px;
+    min-height: 1200px;
+}
+
+.terms-item {
+    margin-bottom: 20px;
+}
+
+.terms-item ol {
+    padding-left: 18px;
+    margin-top: 10px;
+}
+
+.terms-subtitle {
+    font-size: 16px;
+}
+
+.terms-item label {
+    margin-bottom: 15px;
+}
